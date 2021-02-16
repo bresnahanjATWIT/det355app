@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
     private var clickNum = 0
     private lateinit var textView : TextView
     private lateinit var x : number
+    private val test = 2
 
 
     @SuppressLint("SetTextI18n")

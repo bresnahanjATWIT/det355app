@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/camo" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="193dp"
+        android:layout_height="101dp"
+        android:alpha=".92"
+        android:background="#000000"
+        android:text="Drill Cards"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#AAAAAA"
+        app:backgroundTintMode="src_atop"
+        app:layout_constraintBottom_toTopOf="@+id/toolbar"
+        app:layout_constraintEnd_toStartOf="@+id/button9"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.989" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="193dp"
+        android:layout_height="101dp"
+        android:alpha=".92"
+        android:background="#000000"
+        android:text="Weekly Knowledge"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#AAAAAA"
+        app:backgroundTintMode="src_atop"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/button12"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.989" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="193dp"
+        android:layout_height="101dp"
+        android:alpha=".92"
+        android:background="#000000"
+        android:text="Cadet Knowledge"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#AAAAAA"
+        app:backgroundTintMode="src_atop"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toStartOf="@+id/button13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.988" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="193dp"
+        android:layout_height="101dp"
+        android:alpha=".92"
+        android:autoText="false"
+        android:background="#000000"
+        android:capitalize="none"
+        android:fontFamily="sans-serif-medium"
+        android:shadowColor="#000000"
+        android:text="Org Chart"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#0064AA"
+        app:backgroundTintMode="src_atop"
+        app:layout_constraintBottom_toTopOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.989" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="193dp"
+        android:layout_height="101dp"
+        android:alpha=".92"
+        android:background="#000000"
+        android:text="AFIs and AFHs"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#0064AA"
+        app:backgroundTintMode="src_atop"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.989" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="193dp"
+        android:layout_height="101dp"
+        android:alpha=".92"
+        android:background="#000000"
+        android:text="Warrior Squadron"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#0064AA"
+        app:backgroundTintMode="src_atop"
+        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.988" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="72sp"
+        app:layout_constraintBottom_toTopOf="@+id/button13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="409dp"
+        android:layout_height="62dp"
+        android:background="#6C6C6C"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

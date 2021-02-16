@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "548158521526",
+    "project_id": "det355android",
+    "storage_bucket": "det355android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548158521526:android:37feb163435de37e31e617",
+        "android_client_info": {
+          "package_name": "com.example.det355app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548158521526-crvipne0us7qqrkvqdhckpc2pdcd94am.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7pX6nHQ3nPKxaACDyfDPDV7_IIaZlJ7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548158521526-crvipne0us7qqrkvqdhckpc2pdcd94am.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

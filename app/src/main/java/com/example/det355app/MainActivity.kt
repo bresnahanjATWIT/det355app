@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     private var clickNum = 0
     private lateinit var textView : TextView
     private lateinit var x : number
-
+    private val poop = 1
 
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
